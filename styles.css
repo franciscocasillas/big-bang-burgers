@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 a:link {
     font-size: 14px;
@@ -8,14 +6,11 @@ a:link {
     text-decoration: none;
 }
 
-img.main {
-}
-
 button {
     padding: 5px 25px;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 7px;
     border: none;
 }
@@ -24,6 +19,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    margin: 0;
 }
+
 
     .header {
         background-color: #1F2937;
@@ -49,38 +45,50 @@ body {
 
         .main {
             display: flex;
-            flex-direction: row;    
-            justify-content: center;
-            align-items: center;
-            padding: 100px;   
-            gap: 35px; 
+            justify-content: center;  
+            padding: 0 20px;
         }
 
+            .main-box {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 100px 80px;   
+                gap: 38px; 
+                width: 100%;
+                flex-wrap: wrap;
+            }
           
 
-            .hero {
-                display: flex;
-                flex-direction: column;
-                gap: 8px;
-            }
-            
-                .hero-text {
-                    font-size: 48px;
-                    font-weight: bolder;
-                    color: #F9FAF8;
-                }
-
-                .hero-subtext {
-                    font-size: 14px;
-                    color: #E5E7EB;
+                .hero {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 470px;
+                    gap: 8px;
                 }
             
-            
+                    .hero-text {
+                        font-size: 48px;
+                        font-weight: bolder;
+                        color: #F9FAF8;
+                    }
 
-            .hero-img {
-            
-            }
+                    .hero-subtext {
+                        font-size: 14px;
+                        color: #E5E7EB;
+                        margin-bottom: 5px;
+                        max-width: 400px;
+                    }
 
+                .main-img {
+                    max-width: 520px;
+                    flex-basis: 350px;
+                    flex-grow: 1;
+                }
+            
+    
 
     .info{
         display: flex;
@@ -125,7 +133,7 @@ body {
                 width: 585px;
                 display: flex;
                 flex-direction: column;
-                padding: 60px 25px 60px 25px;
+                padding: 100px 25px 100px 25px;
                 gap: 20px;
             }
 
@@ -156,12 +164,13 @@ body {
             width: 1000px;
             border-radius: 7px;
             padding: 80px 25px;
-            margin: 100px 40px;
+            margin: 120px 40px;
         }
 
                 .cta-top-text {
                     font-weight: bold;
                     font-size: 18px;
+                    margin-bottom: 3px;
                 }
 
                 .cta-bottom-text {
