@@ -158,11 +158,13 @@ body {
         .cta-box {
             display: flex;
             flex-direction: row;
+            align-items: center;
             justify-content: space-around;
-            background: hsl(0, 85%, 37%);
+            flex-wrap: wrap;
+            background-color: hsl(0, 85%, 37%);
             color: #E5E7EB;
             gap: 10px;
-            width: 1000px;
+            width: 750px;
             border-radius: 7px;
             padding: 80px 25px;
             margin: 120px 40px;
@@ -176,6 +178,7 @@ body {
 
                 .cta-bottom-text {
                     font-size: 14px;
+                    margin-bottom: 23px;
                 }
 
 
@@ -184,7 +187,6 @@ body {
                 align-self: flex-start;
                 border-radius: 7px;
                 border: solid 2px white;
-                
             }
 
     .footer {
