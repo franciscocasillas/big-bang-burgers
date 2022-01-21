@@ -8,7 +8,7 @@ a:link {
 
 button {
     padding: 5px 25px;
-    background-color: #3882F6;
+    background-color: hsl(0, 85%, 37%);
     color: #F9FAF8;
     font-size: 16px;
     border-radius: 7px;
@@ -22,7 +22,7 @@ body {
 
 
     .header {
-        background-color: #1F2937;
+        background-color: #1A0F17;
     }
 
         .top-links {
@@ -88,12 +88,12 @@ body {
                 }
             
     
-
     .info{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #E5E7EB;
         gap: 40px;
         padding: 80px 0 120px 0;
     }
@@ -101,13 +101,14 @@ body {
         .info-text {
             font-size: 24px;
             font-weight: bold;
+            color: #1A0F17;
         }
 
         .pics {
             display: flex;
             justify-content: center;
             gap: 35px;
-            
+            color: #200e1c; 
         }
 
             .pic {
@@ -121,8 +122,8 @@ body {
 
 
         .quote {
-            background-color: #E5E7EB;
-            color: #1F2937;
+            background-color: hsl(0, 35%, 60%);
+            color: #F9FAF8;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -138,7 +139,7 @@ body {
 
                 .quote-text {
                     align-self: center;
-                    font-style: italic;
+                    font-style: cursive; 
                     font-weight: lighter;
                     font-size: 30px;
                 }
@@ -151,14 +152,15 @@ body {
     .cta {
         display: flex;
         justify-content: center;
-        color: #E5E7EB;
+        background-color: #E5E7EB;
     }
 
         .cta-box {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            background: #3882F6;
+            background: hsl(0, 85%, 37%);
+            color: #E5E7EB;
             gap: 10px;
             width: 1000px;
             border-radius: 7px;
@@ -180,14 +182,15 @@ body {
             .cta-button {
                 flex-shrink: 0;
                 align-self: flex-start;
-                border: 2px solid white;
                 border-radius: 7px;
+                border: solid 2px white;
+                
             }
 
     .footer {
         font-size: 14px;
         color: #E5E7EB;
-        background-color: #1F2937;
+        background-color: #200e1c;
         display: flex;
         justify-content: center;
         align-items: center;
