@@ -1,6 +1,8 @@
-# product-landing-page
+# Landing Page
 
 Simple landing page design for Big Bang Burgers. 
+
+#Live website
 Live website: https://franciscocasillas.github.io/big-bang-burgers/
 
 # Credits
