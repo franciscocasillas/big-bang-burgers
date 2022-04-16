@@ -1,6 +1,7 @@
 # product-landing-page
 
-This is just a mock up for a standard product landing page. This page is designed exclusively with HTML, CSS and CSS FlexBox. 
+Simple landing page design for Big Bang Burgers. 
+Live website: https://franciscocasillas.github.io/big-bang-burgers/
 
 # Credits
 
